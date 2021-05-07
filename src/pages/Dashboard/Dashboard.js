@@ -10,6 +10,8 @@ const useStyles = makeStyles(theme => ({
     paddingLeft: '60px',
     paddingRight: '60px',
     backgroundColor: `${theme.colors.themeColor}`,
+    height: '100vh',
+    overflowY: 'scroll',
     [theme.breakpoints.down('sm')]: {
       paddingLeft: '20px',
       paddingRight: '20px',
