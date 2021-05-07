@@ -18,7 +18,7 @@ function App() {
         <CssBaseline />
         <Router>
           <Switch>
-            <Route path="/" component={Dashboard} exact />
+            <Route path="/github_search" component={Dashboard} exact />
             <Redirect to="/github_search" />
           </Switch>
         </Router>
