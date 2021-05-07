@@ -19,7 +19,7 @@ function App() {
         <Router>
           <Switch>
             <Route path="/" component={Dashboard} exact />
-            <Redirect to="/" />
+            <Redirect to="/github_search" />
           </Switch>
         </Router>
       </ThemeProvider>
